@@ -6,7 +6,6 @@ void thread2() { printf("thread2\n"); };
 void thread3() { printf("thread3\n"); };
 
 int main() {
-
 	std::thread Th_1(thread1);
 	Th_1.join();
 
